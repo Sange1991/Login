@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ebece8;
+}
+.form{
+    background-color: #ffff;
+    width: 40%;
+    height: 550px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 2px 2px 4px #989989;
+}
+.form__img{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #989989;
+}
+.form__logo{
+    display: block;
+    margin: 0px auto;
+}
+.form__container{
+    margin: 10px 30px;
+    align-items: center;
+    
+}
+.form__h3{
+    text-align: center;
+    margin: 20px auto;
+}
+input[type=text], input[type=password],input[type=tel]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+input[type=checkbox]{
+    padding: 10px 20px;
+    margin: 10px auto;
+
+    
+}
+.form__link{
+    text-decoration: none;
+    color:#007BFF;
+}
+.form__button{
+    margin:20px auto;
+    padding: 15px 20px;
+    background-color:#007BFF;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 80%;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+.form__button:hover{
+    background-color:#0c70db;
+}
+/* .button--primary{
+    background-color: #989989;
+    color: #000;
+} */
+.form__span{
+  padding: 30px auto;
+  text-align: center;
+}
+.form__sign{
+    color: #007BFF;
+    text-decoration: none;
+}
